@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bycatching Prevention Association</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="headerAndShipContainer">
+		<div class="header">
+			<div class="header-wrapper">
+				<img src="images/logo.png" class ="logo">
+				<div class="navigation">
+					<div class="button">
+						<a href="index.html#what-is-anchor">Bycatching</a>
+					</div>
+					<div class="button">
+						<a href="index.html#impacts-anchor">Impacts</a>
+					</div>
+					<div class="button">
+						<a href="index.html#solutions-anchor">Solutions</a>
+					</div>
+					<div class="button">
+						<a href="index.html#take-action-anchor">Take Action</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ship-container">
+			<div class="water-surface"></div>
+			<div class="boat">
+				<img src="images/boat.png" class="image-fill">
+			</div>
+		</div>
+	</div>
+	<div class="body-container" id="body-container" onscroll="myFunction()">
+		<div class="text-column">
+			<div class="text-container what-is" id="what-is">
+			  <h1>Bycatching</h1>
+			  <p>
+					Bycatching, in the fishing industry, is the act of
+					unintentionally catching a certain target species
+					or target size of fish or other marine life. <br/><br/>
+
+					Every day, thousands of miles of nets and lines are
+					set in the ocean to catch fish. Although this is essential
+					for catching seafood we ultimately consume, it
+					can be harmful for the marine environment. <br/><br/>
+
+					Dolphins, sea turtles, and other marine life often get
+					stuck in these nets and lines. When they are hauled
+					up with the rest of the catch, these marine animals
+					are discarded back into the water. These animals are
+					often dead or dying when they are discarded.
+				</p>
+			</div> 
+			
+			<img src="images/bycatchnet.png" class="net">
+			
+			<div class="text-container impacts" id="impacts">
+				<h1>Impacts</h1>
+				<p>
+					Bycatching can have serious consequences.
+					Endangered marine life, especially those already
+					suffering from habitat loss, are at even greater risk
+					for going extinct.<br/><br/>
+
+					Bycatching not only affects fish, but also endangers
+					populations of whales, dolphins, sea turtles,
+					seabirds, and other precious marine life. Approximately
+					200,000 loggerhead sea turtles are caught a
+					year, with almost 700 killed in the U.S. alone.<br/><br/>				
+
+					Environmental concerns aside, bycatching is also
+					harmful for fishermen, as it damages their gear,
+					reduces their number of catches.
+				</p>
+			</div>
+			
+			<img src="images/dolphin.png" class="dolphin" id="dolphin">
+			
+			<div class="text-container solutions" id="solutions">
+				<h1>Solutions</h1>
+				<p>
+					Bycatching is a known problem throughout the
+					industry, and many are taking steps to reduce it.
+					Luckily, new technology allows for fishermen to
+					reduce the number of bycatch, and to catch more
+					of the targeting species and size.<br/><br/>
+
+					Because of this, fishing is no longer poses a
+					threat to the survival of non-target species. But
+					the new technology is far from perfect, and not
+					employed everywhere.<br/><br/>
+
+					The continuation of developing new technologies
+					to catch only the desired species and size is essential
+					for solving the problem of bycatching, or at
+					least taking great strides in reducing it.
+				</p>
+			</div>
+			
+			<img src="images/turtle.png" class="turtle" id="turtle">
+			
+			<div class="text-container take-action" id="take-action">
+				<h1>Take Action</h1>
+				<p>
+					There are steps you, as the consumer, can take to
+					mitigate the effects of bycatching. <br/><br/>
+
+					Tuna and shrimp are some of the most common
+					types of seafood consumed in the United States.
+					Unfortunately, they also create large environmental
+					impacts, as the amount of bycatch for these two
+					is large. Some fisheries that are the source for
+					tuna and shrimp are more maintainable than
+					others, however.<br/><br/>
+
+					Check online to see which sources are more environmentally
+					friendly. Try to avoid problematic
+					fisheries, and promote sustainable ones. <br/><br/>
+
+					Most importantly, get involved and spread
+					the word!
+				</p>
+			</div>
+			<img src="images/whale.png" class="whale" id="whale">
+		</div>
+		<div class="seaFloor"></div>
+	</div>
+	<div id="what-is-anchor"></div>
+	<div id="impacts-anchor"></div>
+	<div id="solutions-anchor"></div>
+	<div id="take-action-anchor"></div>
+	
+	<script>
+		window.onscroll = function() {
+			var dolphin = document.getElementById("dolphin");
+			var rectDolphin = dolphin.getBoundingClientRect();
+			var positionDolphin = (parseInt(rectDolphin.top, 10) * -1) + 300;
+			dolphin.style.left =  positionDolphin + "px";
+			
+			var whale = document.getElementById("whale");
+			var rectWhale = whale.getBoundingClientRect();
+			var positionWhale = (parseInt(rectWhale.top, 10) * -1) + 200;
+			whale.style.left =  positionWhale + "px";
+			
+			var turtle = document.getElementById("turtle");
+			var rectTurtle = turtle.getBoundingClientRect();
+			var positionTurtle = (parseInt(rectTurtle.top, 10)) + 300;
+			turtle.style.left =  positionTurtle + "px";
+		}
+	</script>
+</body>
+</html>

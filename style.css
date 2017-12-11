@@ -55,8 +55,8 @@
 	vertical-align: middle;
 	overflow: hidden;
 	background-color: rgba(3,196,255,1.00);
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	transition: .7s all;
 	-moz-transition: .7s all;
 	-webkit-transition: .7s all;
@@ -73,6 +73,8 @@
 	width:12%;
 	text-align: center;
 	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
 	transition: .7s all;
 	-moz-transition: .7s all;
 	-webkit-transition: .7s all;
@@ -88,6 +90,8 @@
 	width:9%;
 	text-align: center;
 	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
 	transition: .7s all;
 	-moz-transition: .7s all;
 	-webkit-transition: .7s all;
@@ -260,11 +264,30 @@
 	height: 100%;
 }
 
-a {
+.navigationLarge a {
 	text-decoration: none;
 	font-family: amaticBold;
 	color: black;
+	white-space: nowrap;
+  	overflow: hidden;
 	font-size: 40px;
+	transition: .7s all;
+	-moz-transition: .7s all;
+	-webkit-transition: .7s all;
+	-o-transition: .7s all;
+}
+
+.navigationMini a {
+	text-decoration: none;
+	font-family: amaticBold;
+	color: black;
+	white-space: nowrap;
+  	overflow: hidden;
+	font-size: 30px;
+	transition: .7s all;
+	-moz-transition: .7s all;
+	-webkit-transition: .7s all;
+	-o-transition: .7s all;
 }
 
 h1 {

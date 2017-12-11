@@ -290,6 +290,32 @@
 	-o-transition: .7s all;
 }
 
+.footer {
+	position: absolute;
+	width: 100%;
+	top: 4875px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer p {
+	font-family: amaticRegular;
+	font-size: 25px;
+	color: white;
+}
+
+.social-media {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+.footer .social-media p {
+	font-family: amaticRegular;
+	font-size: 25px;
+	color: white;
+}
+
 h1 {
 	font-family: amaticBold;
 	font-size: 40px;

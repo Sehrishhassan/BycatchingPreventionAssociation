@@ -68,7 +68,7 @@ $("#topOfPage").click(function(e) {
 
 $(document).on("scroll", function() {
 	"use strict";
-	if($(document).scrollTop()>100) {
+	if($(document).scrollTop()>300) {
 		$("#navigation").removeClass("navigationLarge").addClass("navigationMini");
 		$("#logo").removeClass("logoLarge", {duration:400}).addClass("logoMini", {duration:400});
 	} else {

@@ -14,6 +14,16 @@ window.onscroll = function() {
 	var rectTurtle = turtle.getBoundingClientRect();
 	var positionTurtle = (parseInt(rectTurtle.top, 10)) + 300;
 	turtle.style.left =  positionTurtle + "px";
+	
+	var fish1 = document.getElementById("fish1");
+	var rectFish1 = fish1.getBoundingClientRect();
+	var positionFish1 = (parseInt(rectFish1.top, 10) * 2) + 300;
+	fish1.style.left =  positionFish1 + "px";
+
+	var fish2 = document.getElementById("fish2");
+	var rectFish2 = fish2.getBoundingClientRect();
+	var positionFish2 = (parseInt(rectFish2.top, 10) * -1.5) + 700;
+	fish2.style.left =  positionFish2 + "px";
 };
 
 $("#bycatchingLink").click(function(e) { 

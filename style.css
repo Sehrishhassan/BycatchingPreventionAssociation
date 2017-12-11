@@ -332,6 +332,10 @@ p {
 	font-family: andika;
 }
 
+a:hover {
+	color: white;
+}
+
 #what-is-anchor {
 	position: absolute;
 	top: 890px;

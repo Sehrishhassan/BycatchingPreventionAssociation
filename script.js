@@ -2,12 +2,12 @@ window.onscroll = function() {
 	"use strict";
 	var dolphin = document.getElementById("dolphin");
 	var rectDolphin = dolphin.getBoundingClientRect();
-	var positionDolphin = (parseInt(rectDolphin.top, 10) * -1) + 300;
+	var positionDolphin = (parseInt(rectDolphin.top, 10) * -1) + 100;
 	dolphin.style.left =  positionDolphin + "px";
 
 	var whale = document.getElementById("whale");
 	var rectWhale = whale.getBoundingClientRect();
-	var positionWhale = (parseInt(rectWhale.top, 10) * -1) + 200;
+	var positionWhale = (parseInt(rectWhale.top, 10) * -1);
 	whale.style.left =  positionWhale + "px";
 
 	var turtle = document.getElementById("turtle");

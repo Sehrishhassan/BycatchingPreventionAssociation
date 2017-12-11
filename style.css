@@ -162,22 +162,22 @@
 
 .what-is {
 	top: 50px;
-	left: 0px;
+	float: left;
 }
 
 .impacts {
-	top: 200px;
-	left: 800px;
+	top: 1000px;
+	float: right;
 }
 
 .solutions {
-	top: 300px;
-	left: 0px;
+	top: 1100px;
+	float: left; 
 }
 
 .take-action {
-	top: 420px;
-	left: 800px;
+	top: 2000px;
+	float: right;
 }
 
 .net {
@@ -215,7 +215,7 @@
 	height: 600px;
 	position: absolute;
 	top: 2850px;
-	left: -100px;
+	left: 0px;
 	margin: 0 auto;
 	z-index: 3;
 }
